@@ -29,11 +29,11 @@ export default class AddContacts extends Component {
                 <form className="col s12" onSubmit={this.submitContact.bind(this)}>
                     <div className="row">
                         <div className="input-field col s6">
-                            <input ref="first_name" type="text" className="validate" />
+                            <input ref="firstName" type="text" className="validate" />
                                 <label htmlFor="firstName">First Name</label>
                         </div>
                         <div className="input-field col s6">
-                            <input ref="last_name" type="text" className="validate" />
+                            <input ref="lastName" type="text" className="validate" />
                                 <label htmlFor="lastName">Last Name</label>
                         </div>
                     </div>
@@ -45,7 +45,7 @@ export default class AddContacts extends Component {
                         </div>
                     </div>
                     <div className="row">
-                        <button classNameName="waves-effect waves-light btn" type="submit" name="action">Submit</button>
+                        <button className="waves-effect waves-light btn" type="submit" name="action">Submit</button>
                     </div>
 
                 </form>
